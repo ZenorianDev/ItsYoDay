@@ -1,9 +1,8 @@
-// File: src/App.jsx
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import MessageForm from "./components/MessageForm";
 import AvatarCustomizer from "./components/AvatarCustomizer";
-import CakeDesigner from "./components/CakeDesigner";
+import CakeDesign from "./components/CakeDesign";
 import BirthdayPreview from "./components/BirthdayPreview";
 import BirthdayCard from "./components/BirthdayCard";
 
@@ -36,7 +35,7 @@ export default function App() {
               <h1 className="text-3xl font-bold text-center">🎉 Birthday Creator 🎂</h1>
               <MessageForm formData={formData} setFormData={setFormData} />
               <AvatarCustomizer formData={formData} setFormData={setFormData} />
-              <CakeDesigner formData={formData} setFormData={setFormData} />
+              <CakeDesign formData={formData} setFormData={setFormData} />
               <BirthdayPreview formData={formData} />
               <div className="text-center">
                 <a
