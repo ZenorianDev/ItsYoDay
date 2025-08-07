@@ -126,7 +126,7 @@ function switchLight() {
             // Animate subtitles
             const sentences = letterMessage.split('.').map(s => s.trim()).filter(s => s);
             if (sentences.length === 0) {
-                subtitle.textContent = `Happy Birthday, ${friendName}! Love, ${signature}`;
+                subtitle.textContent = `Happy Birthday, ${friendName}! Sincerely, ${signature}`;
                 gsap.fromTo(subtitle, { opacity: 0 }, { opacity: 1, duration: 1 });
             } else {
                 let delay = 0;

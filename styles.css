@@ -82,7 +82,7 @@ h1 {
 .cake {
     width: 200px;
     height: 200px;
-    background: url('/images/Cake.png') no-repeat center;
+    background: url('/src/Cake.png') no-repeat center;
     background-size: cover;
     z-index: 2;
 }
